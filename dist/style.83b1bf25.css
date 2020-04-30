@@ -18,7 +18,9 @@ body{
     background: #eee;
     background-image: url(pc.c2451f7f.jpg);
     background-repeat: no-repeat;
-    background-size: cover; 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; 
 }
 @media(max-width: 500px){
     body{
@@ -157,4 +159,4 @@ body{
     align-items: center;
 }
 
-/*# sourceMappingURL=style.50d43c57.css.map */
+/*# sourceMappingURL=style.83b1bf25.css.map */

@@ -18,7 +18,9 @@ body{
     background: #eee;
     background-image: url(pc.jpg);
     background-repeat: no-repeat;
-    background-size: cover; 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; 
 }
 @media(max-width: 500px){
     body{
