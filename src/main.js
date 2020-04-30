@@ -59,7 +59,7 @@ window.onbeforeunload = () => {
 
 $(document).on('keypress', (e) => {
     const {key} = e
-    $input.on('keypress', (e) => {
+    $('.input').on('keypress', (e) => {
         e.stopPropagation()     //阻止在输入框时冒泡
     })
     for(let i=0; i<hashMap.length; i++){

@@ -172,7 +172,7 @@ window.onbeforeunload = function () {
 
 $(document).on('keypress', function (e) {
   var key = e.key;
-  $input.on('keypress', function (e) {
+  $('.input').on('keypress', function (e) {
     e.stopPropagation(); //阻止在输入框时冒泡
   });
 
@@ -183,4 +183,4 @@ $(document).on('keypress', function (e) {
   }
 });
 },{}]},{},["epB2"], null)
-//# sourceMappingURL=main.f014fc37.js.map
+//# sourceMappingURL=main.e872bf14.js.map
