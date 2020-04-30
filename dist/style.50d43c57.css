@@ -16,11 +16,15 @@ img{max-width: 100%; max-height: 100%;}
 /* style */
 body{
     background: #eee;
-    background-image: url(background.8b2a7795.jpg);
+    background-image: url(pc.c2451f7f.jpg);
     background-repeat: no-repeat;
     background-size: cover; 
 }
-
+@media(max-width: 500px){
+    body{
+        background-image: url(phone.63166edd.jpg);
+    }
+}
 .globalHeader{
     margin: 20px;
 }
@@ -153,4 +157,4 @@ body{
     align-items: center;
 }
 
-/*# sourceMappingURL=style.1a5ae044.css.map */
+/*# sourceMappingURL=style.50d43c57.css.map */
